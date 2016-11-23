@@ -1,10 +1,10 @@
 {
-  "name": "new",
+  "name": "foinni",
   "version": "1.0.0",
-  "description": "new",
+  "description": "foinni",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeffasol/new.git"
+    "url": "git+https://github.com/yeffasol/foinni.git"
   },
   "main": "gulpfile.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "gulp": "gulp"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marat",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.5.3",

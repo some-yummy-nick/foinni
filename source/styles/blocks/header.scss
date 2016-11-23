@@ -1,3 +1,69 @@
-header{
-  background-image: linear-gradient(to right, #ae691e 0%, #b16c21 50%, #b2691e 75%, #af671f 100%);
+.header{
+  background: url('../img/bg-header.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  &__top{
+    .wrapper{
+      display: flex;
+      justify-content: space-between;
+    }
+    &:after{
+      content: '';
+      display: block;
+      height: 1px;
+      opacity: 0.5;
+      background-color: #8f8e91;
+    }
+  }
+}
+.logo{
+  margin-top: 15px;
+  margin-right: 50px;
+  a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fffcf4;
+  }
+  span{
+    color: $color-accent;
+    font-family: Pacifico;
+    font-size: 60px;
+  }
+}
+.menu{
+  margin-top: 55px;
+  margin-bottom: 30px;
+&__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+  &__item{
+    @include marginLeft(30px);
+    margin-bottom: 20px;
+
+    &--active{
+      border-bottom:1px solid $color-accent;
+      .menu__link{
+        color: $color-accent;
+
+      }
+    }
+  }
+  &__link{
+    display: block;
+    padding: 5px;
+    color: #fffcf4;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover{
+      color: $color-accent;
+    }
+  }
 }

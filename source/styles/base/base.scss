@@ -14,15 +14,18 @@ body {
   font-family: $font;
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42;
   position: relative;
 }
 
-.wrapper{
+.wrapperAll{
   display: table;
   height: 100%;
   width: 100%;
+}
+.wrapper{
+  @include container;
 }
 .content{
   display: table-row;

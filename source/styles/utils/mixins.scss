@@ -9,17 +9,15 @@
   }
 }
 
-
-
 @mixin container {
-  width: 320px;
+  width: 360px;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1600px;
   @media ($tablet-widths) {
     width: 640px;
   }
   @media ($desktop-widths) {
-    width: 960px;
+    width: 1170px;
   }
 }
 

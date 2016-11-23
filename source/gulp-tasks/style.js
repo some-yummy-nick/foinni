@@ -10,7 +10,7 @@ module.exports = function (options) {
     ))
     .pipe(this.plumber())
     .pipe(this.sass())
-    .pipe(this.sass().on('error',  this.sass.logError))
+    // .pipe(this.sass().on('error',  this.sass.logError))
     .pipe(this.csscomb())
     .pipe(this.postcss([
       autoprefixer({
