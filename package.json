@@ -4,7 +4,7 @@
   "description": "new",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeffasol/new2.git"
+    "url": "git+https://github.com/yeffasol/new.git"
   },
   "main": "gulpfile.js",
   "scripts": {
