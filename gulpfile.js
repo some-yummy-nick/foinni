@@ -25,7 +25,7 @@ task('sync', {
 
 task('svg', {
   src:'source/img/svg/*.svg',
-  dist: 'source/img/svg'
+  dist: 'source/img/'
 });
 
 task('bower', {

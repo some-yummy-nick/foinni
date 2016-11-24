@@ -43,3 +43,18 @@ body {
   color: #0000AA;
   background: #ff7b93;
 }
+.section__title{
+  font-size: 30px;
+  font-weight: 500;
+  color: #454546;
+  span{
+    color: $color-accent;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+.section__text{
+  color: $text-color;
+  font-size: 18px;
+  font-weight: 100;
+}
